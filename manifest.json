@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "My Custom New Tab",
+  "version": "1.0",
+  "description": "Customizes the New Tab page with a beautiful layout.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_title": "My New Tab Settings"
+  }
+}
