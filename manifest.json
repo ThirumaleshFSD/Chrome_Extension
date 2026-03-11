@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "My Custom New Tab",
+  "name": "My first and simple extenstion",
   "version": "1.0",
   "description": "Customizes the New Tab page with a beautiful layout.",
   "chrome_url_overrides": {

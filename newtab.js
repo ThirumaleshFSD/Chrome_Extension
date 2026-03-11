@@ -4,9 +4,9 @@ function updateClock() {
     const minutes = String(now.getMinutes()).padStart(2, '0');
     document.getElementById('clock').textContent = `${hours}:${minutes}`;
 
-    let greeting = "Good morning";
-    if (now.getHours() >= 12 && now.getHours() < 17) greeting = "Good afternoon";
-    else if (now.getHours() >= 17) greeting = "Good evening";
+    let greeting = "Good morning Thiru";
+    if (now.getHours() >= 12 && now.getHours() < 17) greeting = "Good afternoon Thiru";
+    else if (now.getHours() >= 17) greeting = "Good evening Thiru";
     document.getElementById('greeting').textContent = greeting;
 }
 
